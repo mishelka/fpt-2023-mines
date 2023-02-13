@@ -6,6 +6,8 @@ Toto je moj Minesweeper projekt pre FPT dev academy 2023, mozete sa z neho inspi
 2. cislovany
 3. zoznam
 
+## podnadpis
+
 A toto
 * je
 * odrazkovy
