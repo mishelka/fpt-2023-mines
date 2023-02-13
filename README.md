@@ -1,6 +1,8 @@
 # fpt-2023-mines
 
-Toto je moj Minesweeper projekt pre FPT dev academy 2023, mozete sa z neho inspirovat.
+Toto je moj Minesweeper projekt pre 
+FPT dev academy 2023, 
+mozete sa z neho inspirovat.
 
 1. toto je
 2. cislovany
