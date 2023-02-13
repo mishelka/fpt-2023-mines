@@ -20,7 +20,8 @@ public class Minesweeper {
         userInterface.newGameStarted(field);
     }
 
-    /** Main method.
+    /**
+     * Main method.
      * @param args arguments
      */
     public static void main(String[] args) {
