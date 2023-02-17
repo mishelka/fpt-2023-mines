@@ -66,9 +66,9 @@ public class ConsoleUI implements UserInterface {
         var length = (int) (Math.log10(columns) + 1) + 1;
         var format = "%" + length + "s";
 
-        System.out.printf(format,"");
+        System.out.printf(format, "");
         for (int c = 0; c < columns; c++) {
-            System.out.printf(format, c);
+            System.out.printf(format, c + 1);
         }
         System.out.println();
         for (int r = 0; r < field.getRowCount(); r++) {
@@ -119,7 +119,7 @@ public class ConsoleUI implements UserInterface {
         matcher.find(); //to create groups
 
         int row = matcher.group(2).charAt(0) - 65,
-            col = Integer.parseInt(matcher.group(3));
+            col = Integer.parseInt(matcher.group(3)) - 1;
 
         if (!isInputInBorderOfField(row, col)) {
             processInput();
