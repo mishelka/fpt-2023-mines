@@ -2,6 +2,8 @@ package minesweeper;
 
 import minesweeper.consoleui.ConsoleUI;
 import minesweeper.core.Field;
+import sk.tuke.gamestudio.service.ScoreService;
+import sk.tuke.gamestudio.service.ScoreServiceJDBC;
 
 /**
  * Main application class.
@@ -9,6 +11,8 @@ import minesweeper.core.Field;
 public class Minesweeper {
     /** User interface. */
     private ConsoleUI userInterface;
+
+    private ScoreService scoreService = new ScoreServiceJDBC();
  
     /**
      * Constructor.

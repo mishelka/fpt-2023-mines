@@ -1,9 +1,10 @@
 package minesweeper.consoleui;
 
 import java.io.*;
-import java.util.Locale;
 import java.util.regex.*;
-import minesweeper.core.*;
+
+import minesweeper.core.Field;
+import minesweeper.core.GameState;
 
 /**
  * Console user interface.
